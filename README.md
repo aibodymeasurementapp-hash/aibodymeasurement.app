@@ -15,7 +15,7 @@ The AI Based Body Measurement App is designed to extract accurate human body mea
 The application aims to:
 
 
-Extract Body Measurements: Use AI to detect 17 body keypoints and calculate precise measurements.
+Extract Body Measurements: Use AI to detect body keypoints and calculate precise measurements.
 
 
 Provide Dress Recommendations: Offer personalized size suggestions and dress designs based on the user's latest measurements to reduce online shopping returns.
