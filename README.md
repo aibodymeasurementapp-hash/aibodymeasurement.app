@@ -1,58 +1,52 @@
-ai_body_measure_app
+# AI Based Body Measurement App 
 
-This project is a starting point for a Flutter application. It is being developed as a Final Year Design Project (FYP) by the following team members from the University of the Punjab, Gujranwala Campus:
-
-Muhammad Imran (BCS 22045) 
-
-Hassan Abdullah (BCS 22014) 
-
-Muhammad Ertaza (BCS 22044)
-
-Dawood Rasheed (BCS 22046) 
-
-Project Overview
-The AI Based Body Measurement App is designed to extract accurate human body measurements (such as chest, waist, hip, and arm length) directly from images using AI-based pose estimation models like ML Kit, MoveNet, or PoseNet. The primary goal is to provide a privacy-preserving and efficient solution where all image processing is performed on-device.
-
-The application aims to:
+**Final Year Design Project (FYDP)** **Department of Information Technology** **University of the Punjab, Gujranwala Campus (PUGC)** **Session: 2022-2026**
 
 
-Extract Body Measurements: Use AI to detect body keypoints and calculate precise measurements.
+## Project Overview
+The **AI Based Body Measurement App** is a mobile solution designed to make custom-fitted online retail shopping convenient and accurate. By leveraging AI-driven pose estimation, the app extracts precise body measurements (chest, waist, hip, and arm length) from images. 
+
+To ensure maximum user privacy, all AI model execution and measurement calculations are performed **on-device** using edge computing.
+
+### Key Features
+* **AI Pose Estimation:** Real-time keypoint tracking using TFLite and Google ML Kit.
+* **Privacy-Centric:** No images are sent to a server; all processing happens on the local device.
+* **Cloud Integration:** Secure user authentication and historical data storage via Firebase.
+* **Size Recommendation:** Personalized dress size suggestions based on extracted measurements.
+* **Modern UI:** Developed with Flutter following Google Material Design 3 guidelines.
 
 
-Provide Dress Recommendations: Offer personalized size suggestions and dress designs based on the user's latest measurements to reduce online shopping returns.
 
+---
 
-Ensure Privacy: Process all sensitive data locally without sending images to external servers.
+## The Team & Work Division
+As per the project proposal and SRS, the work division is as follows:
 
+| Sr. No | Roll Number | Name | Role & Work Division |
+| :--- | :--- | :--- | :--- |
+| **1** | **BCS 22045** | **Muhammad Imran** | **Project Lead Backend & Database Engineer:** Focus on Firebase Integration (Authentication, Real-Time Database, Cloud Storage) and managing data security and logging. |
+| **2** | **BCS 22044** | **Hafiz Muhammad Ertaza** | **System Developer & AI Model Integrator:** Focus on implementing the core Pose Detection Module (TFLite/ML Kit), algorithms, and ensuring overall system stability. |
+| **3** | **BCS 22014** | **Hassan Abdullah** | **Frontend & UI/UX Developer:** Focus on designing and implementing the User Interface (UI), including image upload, measurement display, and dress visualization. |
+| **4** | **BCS 22046** | **Dawood Rasheed** | **QA Specialist & Testing Lead:** Focus on Requirements Analysis, designing and executing Test Cases (e.g., Accuracy Validation), and Performance Optimization across devices. |
 
-Secure Data Storage: Integrate Firebase for secure user authentication and historical measurement storage.
+---
 
-Team Roles & Responsibilities
-Based on the project's System Requirements Specification (SRS), the team members fulfill various technical roles necessary for the development of this AI-driven platform:
+## Tech Stack
+* **Framework:** Flutter (Dart)
+* **Backend:** Firebase (Auth, Firestore, Cloud Storage)
+* **Machine Learning:** TensorFlow Lite, Google ML Kit (MoveNet)
+* **Version Control:** Git & GitHub
 
+---
 
-System Developers: Responsible for implementing the core application logic, integrating the AI pose estimation models (ML Kit/MoveNet), and ensuring seamless interaction between the Flutter frontend and the Firebase backend.
+## Project Links
+* **Live Web Prototype:** [Click here to view](https://aibodymeasurementapp-hash.github.io/aibodymeasurement.app/#/login)
+* **Repository:** [GitHub Link](https://github.com/aibodymeasurementapp-hash/aibodymeasurement.app)
 
+---
 
-QA Specialists: Focused on testing the system to validate the accuracy of the body measurements and ensuring the performance meets the required 90% accuracy threshold.
+## Submission Details
+This prototype is submitted in compliance with the **Notice Dated: 13/01/2026** issued by the Project Office, IT Department, PUGC.
 
-
-Security Experts: tasked with implementing end-to-end encryption for user data and ensuring that all sensitive images are processed strictly on-device.
-
-
-Administrators: Manage the backend infrastructure, including the Firebase Firestore database and the dress catalog updates.
-
-Frontend Development Status
-The project is currently in its initial stages, focusing on the frontend development. The interface follows Google Material Design guidelines and includes several key functional screens:
-
-
-Home Dashboard: The main entry point with options to capture images, view history, or browse recommendations.
-
-
-Guidance & Capture: Screens that provide instructions for correct posture and allow users to capture or upload images via the device camera or gallery.
-
-
-Results Display: A visual interface showing detected keypoints and the calculated measurement values.
-
-
-Personalized Catalog: A view dedicated to recommended dresses and sizes matched to the user's profile.
+**Project Advisor:** Sir Moodser Hussain  
+**Submission Date:** January 27, 2026
