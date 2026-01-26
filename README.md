@@ -1,6 +1,6 @@
 # AI Based Body Measurement App 
 
-**Final Year Design Project (FYDP)** **Department of Information Technology** **University of the Punjab, Gujranwala Campus (PUGC)** **Session: 2022-2026**
+**Final Year Design Project (FYDP)** **Department of Information Technology** **University of the Punjab, Gujranwala Campus (PUGC)** **Session: 2022-2026** **Project ID: FYDP-BSCS-2507**
 
 
 ## Project Overview
