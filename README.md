@@ -49,4 +49,4 @@ As per the project proposal and SRS, the work division is as follows:
 This prototype is submitted in compliance with the **Notice Dated: 13/01/2026** issued by the Project Office, IT Department, PUGC.
 
 **Project Advisor:** Sir Moodser Hussain  
-**Submission Date:** January 27, 2026
+**Submission Date:** January 27, 2026.
